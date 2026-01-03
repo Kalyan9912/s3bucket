@@ -6,7 +6,7 @@ resource "aws_s3_bucket" "mybkp"{
   
     bucket="kalyan9912bucket"
     tags={
-        Name="prod"
+        Name="prod123"
     }
       object_lock_enabled = true
 }
